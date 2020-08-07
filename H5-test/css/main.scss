@@ -35,7 +35,6 @@
         }
     }
 }
-//滑动 左右箭头
 .slide-next, .slide-prev {
     position: absolute;
     top: 50%;
@@ -52,7 +51,6 @@
 }
 .slide-prev { left: 20px; }
 .slide-next { right: 20px; }
-
 // 图文列表
 .info-list {
     padding: 0 45px;
