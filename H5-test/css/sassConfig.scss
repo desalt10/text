@@ -1,4 +1,4 @@
-@charset "UTF-8";
+   @charset "UTF-8";
 // 主色
 $color-main: #01aab6;
 // 辅色
@@ -9,7 +9,7 @@ $text-main: #010101;
 $text-gray: #a0a0a0;
 // 主体宽度
 $container: 1200px;
-
+//%就是继承的方法
 %clearfix {
     height: 1%;
     &:after{
@@ -31,7 +31,7 @@ $container: 1200px;
     -o-#{$type}: $value;
     #{$type}: $value;
 }
-
+//文本超出用省略号表示
 @mixin ell($number){
     display: -webkit-box;
     -webkit-line-clamp: $number;

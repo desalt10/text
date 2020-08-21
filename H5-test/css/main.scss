@@ -216,7 +216,7 @@
 }
 
 /* 合作伙伴 */
-.partner-lsit{
+.partner-list{
     .item {
         padding: 0 20px 80px;
         opacity: .6;
@@ -328,6 +328,7 @@
         @include ell(3);
     }
 }
+/*联系我们*/
 .baidu-map {
     width: 100%;
     height: 400px;
@@ -402,7 +403,7 @@
 .jobs-banner {
     padding: 108px 0 116px;
     margin: 100px 0;
-    background: url(../images/jobs-bg.jpg) no-repeat center;
+    background: url(../img/jobs-bg.jpg) no-repeat center;
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -480,11 +481,11 @@
 #article-content {
     position: relative;
     padding: 0 85px;
-    header {
+    header {          
         padding: 83px 0 30px;
         border-bottom: 1px solid #ececec;
         text-align: center;
-        .title {
+        .title { 
             margin-bottom: 19px;
             font-size: 30px;
         }
@@ -502,7 +503,46 @@
             text-indent: 2em;
         }
         img { max-width: 100%; } // 最终的宽度是100%
+		h4{
+			text-align: center;
+			font-size: 18px;
+			padding: 92px 0 25px;
+		}
+		.new-flex {
+			display: flex;
+			padding: 0 129px  0  146px;
+			@include webkit(box-sizing, border-box);
+			
+		}
+		.row {
+			flex: 1;
+			// padding: 3px;
+			// padding-right: 5px;
+			
+			
+		}
+		.content-row {
+			display: flex;
+			.content-row-big{
+				img{
+					display: block;
+					padding-right: 5px;
+				}
+				
+				
+			}
+			.content-row-small {
+				img {
+					display: block;
+					padding-top: 5px;
+				}
+				img:first-child {
+					padding-top: 0px;
+				}
+			}
+		}
     }
+	
     footer {
         padding-top: 74px;
         .link-more {
@@ -513,6 +553,7 @@
         }
     }
 }
+
 .related {
     border-top: 1px solid #ececec;
     border-bottom: 1px solid #ececec;
@@ -524,7 +565,7 @@
         height: 16px;
         display: inline-block;
         margin: 0 5px -4px;
-        background-image: url(../images/icon001.jpg);
+        background-image: url(../img/icon001.jpg);
         background-repeat: no-repeat;
     }
     li:first-child {
@@ -534,3 +575,4 @@
         i { background-position: right top; }
     }
 }
+/* 门诊详情页*/

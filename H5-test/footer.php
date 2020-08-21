@@ -4,8 +4,8 @@
 			<div class="pull-left">
 				<address class="footer-contact-info">
 					<h5>朗朗医疗投资有限公司</h5>
-					<p>集团总部热线 :<a title="" href="tel:4000-890-608"></a> </p>
-					<p>集团总部地址：广东省深圳市南山区高新南一道3号富诚大厦三楼</p>
+					<p>集团总部热线:<a title="" href="tel:4000-890-608">4000-890-608</a></p>
+					<p>集团总部地址:广东省深圳市南山区高新南一道3号富诚大厦三楼</p>
 				</address>
 				<ul class="share clearfix">
 					<a href="" class="sing-share">

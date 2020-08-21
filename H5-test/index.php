@@ -13,70 +13,11 @@
 		<link rel="stylesheet" href="font/iconfont/iconfont.css">
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="js/swiper/css/swiper.min.css">
-		
-		<div id="sheet1" class="mui-popover mui-popover-bottom mui-popover-action">
-			<!-- 可选择菜单 -->
-			<ul class="mui-table-view">
-			  <li class="mui-table-view-cell">
-				<a href="#"></a>
-			  </li>
-			  <li class="mui-table-view-cell">
-				<!-- <a href="#">2菜单2</a> -->
-			  </li>
-			</ul>
-			<!-- 取消菜单 -->
-			<ul class="mui-table-view">
-			  <li class="mui-table-view-cell">
-				<!-- <a href="#sheet1"><b>3取消</b></a> -->
-			  </li>
-			</ul>
-		</div>
 	</head>
 	<body>
-		<div class="container">
-			<header class="clearfix">
-				<h1 class="logo pull-left" >
-					<a href="index.html" title="朗朗口腔" target="_blank">
-						<img src="img/logo.jpg"  alt="logo">
-					</a>
-				</h1>
-				<div class="pull-right top-menu">
-					<div class="pull-right">
-						<div class="menu-link clearfix">
-							<div class="lang">中文
-								<ul>
-									<a href="">中文</a>
-									<a href="">英文</a>
-								</ul>
-							</div>
-							<span class="link"></span>
-							<a href="tel:0755-86566573" title="0755-86566573">0755-86566573</a>
-							<span class="link"></span>
-							<a href="index.html" title="朗朗口腔集团官网">朗朗口腔集团官网</a>
-						</div>
-						<nav>
-							<ul class="clearfix">
-								<li class="current">
-									<a href="index.html" title="首页">首页</a></li>
-								<li>
-									<a href="">走进朗朗</a>
-									<ul>
-										<li><a href="">朗朗简介</a></li>
-										<li><a href="">朗朗优势</a></li>
-										<li><a href="">核心团队</a></li>
-										<li><a href="">朗朗历程</a></li>
-									</ul>
-								</li>
-								<li><a>咨询动态</a></li>
-								<li><a>合作伙伴</a></li>
-								<li><a>辅助功能</a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</header>
-		</div>
-		<!-- <img src="img/img.jpg" width="100%" alt=""> -->
+		<!-- 头部 start -->
+		<?php include('header.php');?>
+		<!-- 头部 end -->
 		
 		<!-- 幻灯片 start -->
 		<div id="slide-wrap">
@@ -136,76 +77,6 @@
 						</div>
 					</header>
 					<div class="welfare-wrap" id="welfareWrap">
-						<!-- 第一列 start -->
-						<!-- <div class="row">
-							<div class="content-flex">
-								<div class="content-flex-big" > 
-									<img src="img/pic002.jpg" alt="爱能养老院活动">
-								</div>
-								<div class="content-flex-small" style="background-color: #eae9e4;">
-									<div class="content-dec">
-										<h4 class="title">爱能养老院活动</h4>
-										<time datatime="2016-09-17" pubdata="2016-09-17 12:00:00">2016-09-17</time>
-										<i class="line"></i>
-										<p class="dec">
-										</p>
-										<a href="" class="link-more">
-											查看更多
-											<i class="iconfont icon-jiantou_xiangyou_o"></i>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div> -->
-						<!-- 第一列 end -->
-						
-						<!-- 第二列 start -->
-						<!-- <div class="row">
-							<div class="content-flex">
-								<div class="content-flex-big" style="background-color: #FFFFFF;">
-									<div class="content-dec ">
-										<h4 class="title">美吉姆早教义诊活动</h4>
-										<time datatime="2016-09-17" pubdata="2016-09-17 12:00:00">2016-09-17</time>
-										<i class="line"></i>
-										<p class="dec">
-											在“牙齿健康从娃娃抓起”大型美吉姆公益义诊活动现场，参与活动的朗朗口腔辽宁分公司儿童口腔专家王阳有着丰富的临床治疗经验，包括儿童龋病、儿童口腔外科、儿童错颌畸形早期矫治等，囊括了儿童口腔健康的各个方面。王医生现场对孩子们进行了细致的口腔检查
-										</p>
-										<a href="" class="link-more">
-											查看更多
-											<i class="iconfont icon-jiantou_xiangyou_o"></i>
-										</a>
-									</div>
-								</div>
-								<div class="content-flex-small">
-									<img src="img/pic003.jpg" alt="美吉姆早教义诊活动"/>
-								</div>
-							</div>
-						</div> -->
-						<!-- 第二列 end -->
-						
-						<!-- 第三列 start -->
-						<!-- <div class="row">
-							<div class="content-flex">
-								<div class="content-flex-big color-white" style="background-color: #e03854;">
-									<div class="content-dec ">
-										<h4 class="title">商业城公益捐赠活动</h4>
-										<time datatime="2016-09-17" pubdata="2016-09-17 12:00:00">2016-09-17</time>
-										<i class="line"></i>
-										<p class="dec">
-											朗朗口腔辽宁分公司于2016年9月17日在沈阳核心商圈中街商业城举办公益助残捐赠活动，本次共计为辽宁省残疾人福利基金会捐助善款184500元，朗朗口腔辽宁分公司CEO张显威、总经理杜忠华、原省委宣传部副部长葛本亮、辽宁省残联秘书长胡雅菊、商业城总经理刘丽
-										</p>
-										<a href="" class="link-more">
-											查看更多
-											<i class="iconfont icon-jiantou_xiangyou_o"></i>
-										</a>
-									</div>
-								</div>
-								<div class="content-flex-small">
-									<img src="img/pic004.jpg" alt="美吉姆早教义诊活动"/>
-								</div>
-							</div>
-						</div> -->
-						<!-- 第三列 end -->
 					</div>
 				</section>
 				<!-- 朗朗公益 end -->

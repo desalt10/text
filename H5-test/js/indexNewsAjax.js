@@ -68,7 +68,7 @@ function loadNewsData(params){
                 let time = item.time.split(' ');
                 itemHtml += `<div class="col-item-3"><div class="item">
                                 <div class="img-cover" style="background-image: url(${item.imgUrl})">
-                                    <img src="images/blank/indexNews.png" alt="${item.title}" width="100%">
+                                    <img src="img/blank/indexNews.png" alt="${item.title}" width="100%">
                                 </div>
                                 <div class="figure-content padding-top-24">
                                     <h4 class="title">${item.title}</h4>
